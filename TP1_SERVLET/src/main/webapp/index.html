@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CRUD Servlet</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <h2>Entrez les détails à enregistrer dans la base de données :</h2>
+        <form action="reportServlet" method="post">
+            <table>
+                <tr>
+                    <td>Reference :</td>
+                    <td><input type="text" name="reference" /></td>
+                </tr>
+                <tr>
+                    <td>Designation :</td>
+                    <td><input type="text" name="designation" /></td>
+                </tr>
+                <tr>
+                    <td>Prix unitaire :</td>
+                    <td><input type="text" name="prixunit" /></td>
+                </tr>
+                <tr>
+                    <td>Quantité :</td>
+                    <td><input type="text" name="quantite" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" value="Enregistrer" /></td>
+                </tr>
+            </table>
+        </form>
+        <br />
+        <a href="viewServlet">Voir les articles</a>
+    </body>
+</html>
