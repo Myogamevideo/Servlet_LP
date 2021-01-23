@@ -15,6 +15,6 @@
         <h1>Ugly way :</h1>
         <h2>Bonjour, <%= request.getParameter("firstname") + " " + request.getParameter("lastname") %> !</h2>
         <h1>Proper way :</h1>
-        <h2>Bonjour,  ${requestScope.firstname} ${requestScope.lastname} !</h2>
+        <h2>Bonjour,  ${param.firstname} ${param.lastname} !</h2>
     </body>
 </html>

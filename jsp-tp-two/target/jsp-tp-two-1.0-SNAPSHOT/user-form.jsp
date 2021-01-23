@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>Qui êtes vous ?!</h1>
-        <form action="/jsp-tp-two/greetings" method="POST">
+        <form action="/jsp-tp-two/user-greetings.jsp" method="POST">
             <label for="lastname">Nom :</label>
             <input type="text" name="lastname" id="lastname">
             <br />
